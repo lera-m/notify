@@ -75,8 +75,8 @@
     border-radius: 50px;
     width: 52px;
     height: 52px;
-    font-size:24px;
-    color:#f4f4f4;
+    border: none;
+    margin: 3px;
 }
 
 .big {
@@ -85,17 +85,19 @@
     color: white;
     width: 98px;
     height: 98px;
+    border: none;
 }
-.small:hover,
-.big:hover {
-    cursor: pointer;
-    background-color: #2ecc71;
-    
+#windows {
+    opacity: 0.5;
 }
 
+.small:hover {
+    cursor: pointer;
+    background-color: #2ecc71;
+}
 .features {
-    margin: 50px 130px 50px 130px;
-    height: 215px;
+    margin: 70px 130px 70px 130px;
+    height: 315px;
     width: 1170px;
     text-align: center;
     display: flex;
@@ -104,10 +106,6 @@
 
 .container {
     padding: 20px;
-/*
-    width: 30%;
-    height: auto;
-    */
     display: inline-block;
 
 }
@@ -174,35 +172,118 @@
 }
 
 #container1 {
-    padding: 0 105px;
+    padding: 0 160px;
+    margin: 10px;
 }
 
-/*
-#container2 {
-    display: inline-block;
-    margin: 10px;
-    padding: 5px;
+ul {
+    padding: 9px;
 }
-*/
 
 li {
-    text-decoration: none;
-    display: inline-block;
+    list-style: none;
     position: relative;
+    margin: 1px;
+    display: inline-block;
+}
+li > img {
+    float: left;
 }
 
 li:hover:after {
     content: " ";
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     background-color: #2ecc71;
     opacity: 0.6;
-    cursor: pointer;
-    border: 1px solid black;
 } 
+
+li:hover {
+    cursor: pointer;
+}
+
+li:first-child:before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background:linear-gradient(90deg, #fffcfc 10%, rgba(255,255,255,0) 90%);
+}
+
+li:last-child:before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background:linear-gradient(270deg, #fffcfc 10%, rgba(255, 255, 255, 0) 90%);
+}
+
+#container3 {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#gallery > h1 {
+    color: black;
+    font-size: 24px;
+}
+
+.xSmall {
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    border: none;
+    background-color: #c5c5c5;
+}
+
+.xSmall:hover {
+    cursor: pointer;
+    background-color: #2ecc71;
+    opacity: 0.6;
+}
+
+#socialMedia {
+    margin-left: 475px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    
+}
+
+footer {
+    width: 1602px;
+    height: 150px;
+    background-color: #e3e3e3;
+}
+
+#contacts {
+    padding: 70px 500px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
