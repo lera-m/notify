@@ -87,10 +87,13 @@
     height: 98px;
     border: none;
 }
-#windows {
+.small img {
     opacity: 0.5;
 }
 
+.small:hover img {
+    opacity: 1;
+}
 .small:hover {
     cursor: pointer;
     background-color: #2ecc71;
