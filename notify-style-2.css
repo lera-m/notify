@@ -51,22 +51,16 @@ body {
 .button-small {
     padding: 10px;
 }
-
-.features .col {
-    text-align: center;
-}
-
-.features .title {
-    margin-top: 31px;
-    margin-bottom: 29px;
+.title {
+    margin: 30px 0;
     color: #222;
     font-family: Raleway;
     font-size: 22px;
     font-weight: 600;
     line-height: 18px;
 }
-.features .description {
-    margin-bottom: 0;
+.description {
+    margin: 30px 0;
     color: #848484;
     font-family: HelveticaNeue;
     font-size: 16px;
@@ -74,8 +68,42 @@ body {
     line-height: 26px;
 
 }
+.features .col {
+    text-align: center;
+}
+.features .description {
+    margin-bottom: 0;
+}
+.get-notified .title {
+    margin-top: 0;
+}
+.get-notified .form {
+    width: 77%;
+    white-space: nowrap;
+}
+.email {
+    padding: 5px 20px 5px 20px;
+    height: 55px;
+    width: 66.66%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 0;
+    font-size: 18px;
+    color: #848484;
+}
 
-
+.submit {
+    height: 55px;
+    width: 33.33%;
+    margin-left: -4px;
+    color: white;
+    font-family: Raleway;
+    font-size: 22px;
+    border: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
 
 
 
