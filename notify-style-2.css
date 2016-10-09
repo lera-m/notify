@@ -104,8 +104,12 @@ body {
     border-bottom-right-radius: 15px;
     cursor: pointer;
 }
-
-
+.video {
+    float: right;
+    width: 500px;
+    height: 280px;
+    border-radius: 10px;
+}
 
 
 
