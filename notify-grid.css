@@ -42,3 +42,33 @@
 .col-3of3 {
   width: 100%;
 }
+.grid-space {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.grid-space .col {
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

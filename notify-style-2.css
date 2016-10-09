@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("notify-grid.css");
+@import url("notify-icons.css");
 body {
     margin: 0;
     padding: 0;
@@ -31,6 +32,67 @@ body {
 }
 
 .constrain {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.button-round {
+    border-radius: 50%;
+    border: none;
+}
+.button-large {
+    padding: 17px;
+}
+.button-small {
+    padding: 10px;
+}
+
+.features .col {
+    text-align: center;
+}
+
+.features .title {
+    margin-top: 31px;
+    margin-bottom: 29px;
+    color: #222;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.features .description {
+    margin-bottom: 0;
+    color: #848484;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

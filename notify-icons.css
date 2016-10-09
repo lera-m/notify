@@ -1,0 +1,32 @@
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.icon-size-large {
+    height: 44px;
+    width: 44px;
+    background-size: 44px;
+}
+.icon-size-small {
+    height: 26px;
+    width: 26px;
+    background-size: 26px;
+}
+.icon-settings {
+    background-image: url("icons/settings.png");
+}
+.icon-star {
+    background-image: url("icons/star.png");
+}
+.icon-world {
+    background-image: url("icons/world.png");
+}
+.icon-apple {
+    background-image: url("icons/apple-white.png");
+}
+.icon-android {
+    background-image: url("icons/android-white.png");
+}
+.icon-windows {
+    background-image: url("icons/windows-white.png");
+}
