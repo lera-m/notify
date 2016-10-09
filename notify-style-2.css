@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.bg-green{
+    background-color: #2ecc71;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: #e3e3e3;
+}
+
+.top-line{
+    height: 10px;
+}
+
+.header {
+    background-image: url("header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+/*     remove later */
+    height: 600px;
+     
+}
+
+.constrain {
+    width: 1200px;
+    margin: 0 auto;
+}

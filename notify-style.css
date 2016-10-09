@@ -73,6 +73,7 @@
 .small {
     background-color: #030303;
     border-radius: 50px;
+    text-align: center;
     width: 52px;
     height: 52px;
     border: none;
@@ -244,6 +245,7 @@ li:last-child:before {
     border-radius: 50px;
     border: none;
     background-color: #c5c5c5;
+    text-align: center;
 }
 
 .xSmall:hover {
