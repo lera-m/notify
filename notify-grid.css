@@ -5,16 +5,16 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.row {
+.grid {
   margin-left: 0;
   margin-right: 0;
 }
-.row:after,
-.row:before {
+.grid:after,
+.grid:before {
   display: table;
   content: " ";
 }
-.row:after {
+.grid:after {
   clear: both;
 }
 .col {
