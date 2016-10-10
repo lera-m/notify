@@ -32,8 +32,7 @@ body {
     background-image: url("header-background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: auto 100%;
-
+    background-clip: content-box;
 }
 .header-box {
     width: 70%;

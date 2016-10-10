@@ -42,6 +42,26 @@
 .col-3of3 {
   width: 100%;
 }
+@media (min-width: 768px) {
+  .col-desk-1of1 {
+    width: 100%;
+  }
+  .col-desk-1of2 {
+    width: 50%;
+  }
+  .col-desk-2of2 {
+    width: 100%;
+  }
+  .col-desk-1of3 {
+    width: 33.33333333%;
+  }
+  .col-desk-2of3 {
+    width: 66.66666667%;
+  }
+  .col-desk-3of3 {
+    width: 100%;
+  }
+}
 .grid-space {
     padding-top: 10px;
     padding-left: 10px;
