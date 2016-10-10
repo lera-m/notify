@@ -32,9 +32,30 @@ body {
     background-image: url("header-background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-/*     remove later */
-    height: 600px;
+    background-size: auto 100%;
      
+}
+.header .title {
+    font-family: Pacifico;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    color: white;
+}
+.header .title .point {
+    color: #2ecc71;
+
+}
+.header .description {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    
+}
+.header-img {
+    display: block;
+    margin: 95px auto 0 auto;
 }
 
 .constrain {
@@ -51,12 +72,12 @@ body {
     border-radius: 50%;
     border: none;
 }
+
+.button-round .icon {
+    float: left;
+}
 .button-large {
     padding: 20px;
-/*
-    width: 98px;
-    height: 98px;
-*/
 }
 .button-small {
     padding: 10px;
@@ -68,28 +89,23 @@ body {
     cursor: pointer;
 }
 .button-x-small {
-/*     padding: 7px; */
-    width: 34px;
-    height: 34px;
+    padding: 7px;
 }
 .button-x-small:hover {
     cursor: pointer;
     background-color: #2ecc71;
     opacity: 0.6;
 }
-
 .title {
     margin: 30px 0;
     color: #222;
     font-family: Raleway;
     font-weight: 600;
-}
-.font-size-22 {
     font-size: 22px;
     line-height: 22px;
 }
 
-.font-size-24 {
+.title-large {
     font-size: 24px;
     line-height: 24px;
 }
