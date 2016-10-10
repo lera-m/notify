@@ -12,6 +12,11 @@
     width: 26px;
     background-size: 26px;
 }
+.icon-size-x-small {
+    height: 17px;
+    width: 17px;
+    background-size: 17px;
+}
 .icon-settings {
     background-image: url("icons/settings.png");
 }
@@ -29,4 +34,22 @@
 }
 .icon-windows {
     background-image: url("icons/windows-white.png");
+}
+.icon-twitter {
+    background-image: url("icons/twitter.png");
+}
+.icon-facebook {
+    background-image: url("icons/facebook.png");
+}
+.icon-p {
+    background-image: url("icons/p.png");
+}
+.icon-google {
+    background-image: url("icons/google.png");
+}
+.icon-in {
+    background-image: url("icons/in.png");
+}
+.icon-youtube {
+    background-image: url("icons/youtube.png");
 }
